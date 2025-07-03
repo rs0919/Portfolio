@@ -15,15 +15,12 @@
 	<meta name="description" content="Portfolio" />
 </svelte:head>
 
-<section>
+<section class="m-0">
 	<h1 class="text-6xl font-bold font-oxanium">Rohith Saravana</h1>
-
-	<h2>Software developer and Cybersecurity</h2>
 
 	<div id="tag-line">
 		<h3 class="font-ubuntu-mono text-lg">
-			I am passionate about cybersecurity and developing tools to help people maintain security and
-			privacy.
+			Passionate about cybersecurity and software development.
 		</h3>
 		<img
 			class="shadow-md"
@@ -49,7 +46,10 @@
 		<p class="font-ubuntu-mono text-xl text-amber-700">About</p>
 		<p class="font-ubuntu-mono">
 			I graduated from UC Davis with a degree in Computer Science, B.S. I have worked on many
-			projects in software development and cybersecurity over the years. In my free time I enjoy...
+			projects in software development and cybersecurity over the years. I'm interested in
+			developing tools that can help people maintain their privacy and improve their security
+			posture. Aside from programming and tech, I really enjoy watching movies, playing video games,
+			and cooking.
 		</p>
 	</div>
 

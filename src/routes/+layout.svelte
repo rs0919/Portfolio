@@ -1,20 +1,22 @@
 <script lang="ts">
 	import Header from './Header.svelte';
-	// import '../app.css';
+	import '../app.css';
 
 	let { children } = $props();
 </script>
 
-<div class="app bg-slate-300 w-3/5">
-	<!-- <Header /> -->
+<div class="grid grid-cols-5">
+	<div class="main-content bg-slate-300 m-0 h-full col-span-3 col-start-2">
+		<!-- <Header /> -->
 
-	<main>
-		{@render children()}
-	</main>
+		<main>
+			{@render children()}
+		</main>
 
-	<footer class="text-zinc-500">
-		<p>Website developed by Rohith Saravana. Made with SvelteKit.</p>
-	</footer>
+		<footer class="text-zinc-500">
+			<p>Website developed by Rohith Saravana. Made with SvelteKit.</p>
+		</footer>
+	</div>
 </div>
 
 <style>
@@ -26,13 +28,7 @@
 			--font-oxanium: 'Oxanium', sans-serif;
 			--font-ubuntu-mono: 'Ubuntu Mono', sans-serif;
 		}
-
 		/* @apply bg-slate-300; */
-	}
-	.app {
-		display: flex;
-		flex-direction: column;
-		/* min-height: 100vh; */
 	}
 
 	main {
@@ -42,8 +38,8 @@
 		padding: 1rem;
 		width: 100%;
 		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
+		margin: 0;
+		/* box-sizing: border-box; */
 	}
 
 	footer {
