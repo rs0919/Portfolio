@@ -16,7 +16,9 @@
 </svelte:head>
 
 <section class="m-0">
-	<h1 class="text-6xl font-bold font-oxanium max-lg:text-5xl">Rohith Saravana</h1>
+	<h1 class="text-6xl font-bold flex justify-center font-oxanium max-lg:text-5xl">
+		Rohith Saravana
+	</h1>
 
 	<div id="tag-line">
 		<h3 class="font-ubuntu-mono text-lg">
@@ -42,6 +44,13 @@
 				class="social-icon rounded-full hover:bg-green-200"
 				src="https://pngimg.com/d/linkedIn_PNG27.png"
 				alt="LinkedIn"
+			/>
+		</a>
+		<a href="mailto:rohithsaravana@gmail.com">
+			<img
+				class="social-icon rounded-full hover:bg-green-200"
+				src="https://images.vexels.com/media/users/3/140138/isolated/lists/88e50689fa3280c748d000aaf0bad480-email-round-icon-1.png"
+				alt="Email"
 			/>
 		</a>
 	</div>
@@ -71,7 +80,7 @@
 	/>
 	<Info
 		header="Projects"
-		content_1="A recent project I worked on is <a href='https://moovingaround.vercel.app/' class='text-orange-300 hover:text-rose-500'>'Mooving Around'</a> a transportation guide 
+		content_1="A recent project I worked on is <a href='https://moovingaround.vercel.app/' class='text-orange-300 hover:text-rose-500'>Mooving Around</a> a transportation guide 
 		for Davis, CA. My college town had a lot of options for traveling aside from just 
 		driving. During HackDavis 2025, a 24-hour hackathon oriented toward social-good, 
 		I devloped a website that explained the different transportation services available
@@ -84,6 +93,8 @@
 		 the site generates playlists that match the vibe of the weather."
 	/>
 </section>
+
+<div class="sidebar"></div>
 
 <style>
 	@import 'tailwindcss';
