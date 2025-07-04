@@ -34,14 +34,14 @@
 	<div id="social-links">
 		<a href="https://github.com/rs0919">
 			<img
-				class="social-icon rounded-full hover:bg-green-200"
+				class="social-icon rounded-full animate-pulse hover:bg-green-200"
 				src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
 				alt="Github"
 			/>
 		</a>
 		<a href="https://www.linkedin.com/in/rohith-saravana-2072b724b/">
 			<img
-				class="social-icon rounded-full hover:bg-green-200"
+				class="social-icon rounded-full transition duration-300 hover:scale-110"
 				src="https://pngimg.com/d/linkedIn_PNG27.png"
 				alt="LinkedIn"
 			/>
