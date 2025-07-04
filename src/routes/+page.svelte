@@ -16,7 +16,7 @@
 </svelte:head>
 
 <section class="m-0">
-	<h1 class="text-6xl font-bold font-oxanium">Rohith Saravana</h1>
+	<h1 class="text-6xl font-bold font-oxanium max-lg:text-5xl">Rohith Saravana</h1>
 
 	<div id="tag-line">
 		<h3 class="font-ubuntu-mono text-lg">
@@ -32,13 +32,17 @@
 	<div id="social-links">
 		<a href="https://github.com/rs0919">
 			<img
-				class="social-icon"
+				class="social-icon rounded-full hover:bg-green-200"
 				src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
 				alt="Github"
 			/>
 		</a>
-		<a href="https://www.linkedin.com/in/rohith-saravana-2072b724b/"
-			><img class="social-icon" src="https://pngimg.com/d/linkedIn_PNG27.png" alt="LinkedIn" />
+		<a href="https://www.linkedin.com/in/rohith-saravana-2072b724b/">
+			<img
+				class="social-icon rounded-full hover:bg-green-200"
+				src="https://pngimg.com/d/linkedIn_PNG27.png"
+				alt="LinkedIn"
+			/>
 		</a>
 	</div>
 
@@ -54,8 +58,31 @@
 	</div>
 
 	<!-- <Info header="Work Experience" content="Bike Patrol..." /> -->
-	<Info header="CS Experience" content="clubs and cs stuff..." />
-	<Info header="Projects" content="These are the projects I have done..." />
+	<Info
+		header="CS Experience"
+		content_1="At my time in UC Davis, I was a project manager at the AI Student Collective. 
+		I guided cohorts of students that were interested in machine learning, but had little 
+		coding experience. I taught them the Python basics and the Sci-Kit Learn framework 
+		through beginner-friendly ML projects such as a basic stock-price predictor project."
+		content_2="I was also a member of the Cybersecurity club. I attended the club's workshops which 
+		furthered my understanding of security and networking concepts. I participated in CTFs 
+		and cyber competitions with the club, such as ECitadel, where we were tasked with securing 
+		a virtual machine and preventing the red-team from gaining access."
+	/>
+	<Info
+		header="Projects"
+		content_1="A recent project I worked on is <a href='https://moovingaround.vercel.app/' class='text-orange-300 hover:text-rose-500'>'Mooving Around'</a> a transportation guide 
+		for Davis, CA. My college town had a lot of options for traveling aside from just 
+		driving. During HackDavis 2025, a 24-hour hackathon oriented toward social-good, 
+		I devloped a website that explained the different transportation services available
+		 to students and residents of Davis. My goal was to help with the potentially 
+		 overwhelming process of moving to a new city and provide online resources to 
+		 help students learn how to get around the city.
+		 <br><br>
+		 Another project I contributed to is <a href='https://github.com/danfirsten/ForecastFM' class='text-orange-300 hover:text-rose-500'>ForecastFM</a> a music player built with 
+		 Svelte that integrates Spotify's API. Based on the user's location and current weather, 
+		 the site generates playlists that match the vibe of the weather."
+	/>
 </section>
 
 <style>

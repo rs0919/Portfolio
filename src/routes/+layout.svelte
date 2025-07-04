@@ -6,7 +6,7 @@
 </script>
 
 <div class="grid grid-cols-5">
-	<div class="main-content bg-slate-300 m-0 h-full col-span-3 col-start-2">
+	<div class="main-content bg-slate-300 m-0 h-full col-span-3 col-start-2 max-md:col-span-5">
 		<!-- <Header /> -->
 
 		<main>
