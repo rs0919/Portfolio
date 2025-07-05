@@ -1,7 +1,4 @@
 <script lang="ts">
-	import Counter from './Counter.svelte';
-	// import welcome from '$lib/images/svelte-welcome.webp';
-	// import welcomeFallback from '$lib/images/svelte-welcome.png';
 	import type { svelte } from '@sveltejs/vite-plugin-svelte';
 	import { onMount } from 'svelte';
 	import './Info.svelte';
@@ -34,7 +31,7 @@
 	<div id="social-links">
 		<a href="https://github.com/rs0919">
 			<img
-				class="social-icon rounded-full animate-pulse hover:bg-green-200"
+				class="social-icon rounded-full transition duration-300 hover:scale-110"
 				src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
 				alt="Github"
 			/>
@@ -48,7 +45,7 @@
 		</a>
 		<a href="mailto:rohithsaravana@gmail.com">
 			<img
-				class="social-icon rounded-full hover:bg-green-200"
+				class="social-icon rounded-full transition duration-300 hover:scale-110"
 				src="https://images.vexels.com/media/users/3/140138/isolated/lists/88e50689fa3280c748d000aaf0bad480-email-round-icon-1.png"
 				alt="Email"
 			/>
