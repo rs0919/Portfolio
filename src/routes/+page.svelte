@@ -54,7 +54,7 @@
 
 	<div class="about-section my-7">
 		<p class="font-ubuntu-mono text-xl text-amber-700">About</p>
-		<p class="font-ubuntu-mono">
+		<p class="font-ubuntu-mono text-lg">
 			I graduated from UC Davis with a degree in Computer Science, B.S. I have worked on many
 			projects in software development and cybersecurity over the years. I'm interested in
 			developing tools that can help people maintain their privacy and improve their security

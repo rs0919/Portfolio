@@ -6,5 +6,6 @@
 	--font-oxanium: 'Oxanium', sans-serif;
 	--font-ubuntu-mono: 'Ubuntu Mono', sans-serif;
 
-	@apply bg-zinc-600;
+	@apply bg-[url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/80db40c0-7565-4a3e-b019-141f322a8fde/dbf1grt-777963dd-f7e2-46b0-a4e2-3ea1525e2e27.png/v1/fill/w_1024,h_640,q_80,strp/graph_paper_10x10_blue_by_basurero_dbf1grt-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjQwIiwicGF0aCI6IlwvZlwvODBkYjQwYzAtNzU2NS00YTNlLWIwMTktMTQxZjMyMmE4ZmRlXC9kYmYxZ3J0LTc3Nzk2M2RkLWY3ZTItNDZiMC1hNGUyLTNlYTE1MjVlMmUyNy5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.w5fllQ-OlJNSNlXbQmw9xda8wduleRiBQQ2hMfyQ-LU)];
+	/* credit basurero on deviantart.com  */
 }

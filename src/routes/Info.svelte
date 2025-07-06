@@ -10,9 +10,9 @@
 </script>
 
 <div
-	class="h-full w-full font-ubuntu-mono bg-cyan-950 border-2 border-black rounded-lg mb-10 p-5 shadow-xl"
+	class="h-full w-full font-ubuntu-mono text-lg bg-cyan-950 border-2 border-black rounded-lg mb-10 p-5 shadow-xl"
 >
-	<h3 class="text-lime-400">{header}</h3>
+	<h3 class="text-lime-400 text-xl">{header}</h3>
 	<p class="text-white">{@html content_1}</p>
 	<br />
 	<p class="text-white">{@html content_2}</p>
