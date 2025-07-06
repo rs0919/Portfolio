@@ -18,8 +18,8 @@
 	</h1>
 
 	<div id="tag-line">
-		<h3 class="font-ubuntu-mono text-lg">
-			Passionate about cybersecurity and software development.
+		<h3 class="font-ubuntu-mono text-lg flex justify-center">
+			Passionate about cybersecurity and software development
 		</h3>
 		<img
 			class="shadow-md"

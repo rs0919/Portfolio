@@ -3,7 +3,7 @@
 	const md = new MarkdownIt();
 
 	export let data;
-	console.log('Post data: ', data);
+	// console.log('Post data: ', data);
 	const { content } = data.content;
 	let content_rendered = md.render(content);
 </script>

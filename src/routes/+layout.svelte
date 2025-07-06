@@ -7,10 +7,10 @@
 <div class="grid grid-cols-5">
 	<div class="main-content bg-slate-300 m-0 h-full col-span-3 col-start-2 max-md:col-span-5">
 		<nav class="bg-indigo-800 h-10">
-			<ul class="flex justify-center space-x-16 text-white text-lg font-ubuntu-mono pt-2">
+			<ul class="flex justify-center space-x-14 text-white text-lg font-ubuntu-mono pt-2">
 				<li><a href="/" class="hover:text-lime-400">Home</a></li>
 				<li><a href="/blog" class="hover:text-lime-400">Blog</a></li>
-				<li><a href="#services" class="hover:text-lime-400">Projects</a></li>
+				<li><a href="/projects" class="hover:text-lime-400">Projects</a></li>
 				<li><a href="#contact" class="hover:text-lime-400">Security Test</a></li>
 			</ul>
 		</nav>
