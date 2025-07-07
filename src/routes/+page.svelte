@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import './Info.svelte';
 	import Info from './Info.svelte';
+	import Badge from './Badge.svelte';
 
 	onMount(async () => {});
 </script>
@@ -76,22 +77,31 @@
 		a virtual machine and preventing the red-team from gaining access."
 	/>
 	<Info
-		header="Projects"
+		header="Project Highlight"
 		content_1="A recent project I worked on is <a href='https://moovingaround.vercel.app/' class='text-orange-300 hover:text-rose-500'>Mooving Around</a> a transportation guide 
 		for Davis, CA. My college town had a lot of options for traveling aside from just 
 		driving. During HackDavis 2025, a 24-hour hackathon oriented toward social-good, 
 		I devloped a website that explained the different transportation services available
 		 to students and residents of Davis. My goal was to help with the potentially 
 		 overwhelming process of moving to a new city and provide online resources to 
-		 help students learn how to get around the city.
-		 <br><br>
+		 help students learn how to get around the city."
+	/>
+	<!-- <br><br>
 		 Another project I contributed to is <a href='https://github.com/danfirsten/ForecastFM' class='text-orange-300 hover:text-rose-500'>ForecastFM</a> a music player built with 
 		 Svelte that integrates Spotify's API. Based on the user's location and current weather, 
-		 the site generates playlists that match the vibe of the weather."
-	/>
+		 the site generates playlists that match the vibe of the weather." -->
 </section>
 
-<div class="sidebar"></div>
+<section>
+	<Badge />
+	<Badge skill="Python" color="bg-green-400" />
+	<Badge skill="C/C++" color="bg-orange-400" />
+	<Badge skill="Microsoft Office" color="bg-blue-200" />
+	<Badge skill="Git/Github" color="bg-stone-300" />
+	<Badge skill="Networks" color="bg-purple-300" />
+	<Badge skill="HTML/CSS/JS" color="bg-rose-400" />
+	<Badge skill="Linux" color="bg-violet-950" text_color="text-white" />
+</section>
 
 <style>
 	@import 'tailwindcss';
