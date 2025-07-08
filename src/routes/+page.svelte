@@ -2,6 +2,8 @@
 	import type { svelte } from '@sveltejs/vite-plugin-svelte';
 	import { onMount } from 'svelte';
 	import './Info.svelte';
+	import bolt from '$lib/images/bolt_icon.svg';
+	import profile_pic from '$lib/images/profile_picture.jpg';
 	import Info from './Info.svelte';
 	import Badge from './Badge.svelte';
 
@@ -22,10 +24,13 @@
 		<h3 class="font-ubuntu-mono text-lg flex justify-center">
 			Passionate about cybersecurity and software development
 		</h3>
+		<div class="profile-pic">
+			<img src={profile_pic} alt="Rohith Saravana" class="rounded-full w-40" />
+		</div>
 		<img
 			class="shadow-md"
 			src="https://media.tenor.com/awN35nOvAxgAAAAM/escalesolutions-escale.gif"
-			alt="spongebob"
+			alt="spongebob and patrick"
 		/>
 	</div>
 
@@ -54,7 +59,7 @@
 	</div>
 
 	<div class="about-section my-7">
-		<p class="font-ubuntu-mono text-xl text-amber-700">About</p>
+		<p class="font-ubuntu-mono font-bold text-xl text-amber-700">About</p>
 		<p class="font-ubuntu-mono text-lg">
 			I graduated from UC Davis with a degree in Computer Science, B.S. I have worked on many
 			projects in software development and cybersecurity over the years. I'm interested in
@@ -93,14 +98,19 @@
 </section>
 
 <section>
-	<Badge />
-	<Badge skill="Python" color="bg-green-400" />
-	<Badge skill="C/C++" color="bg-orange-400" />
-	<Badge skill="Microsoft Office" color="bg-blue-200" />
-	<Badge skill="Git/Github" color="bg-stone-300" />
-	<Badge skill="Networks" color="bg-purple-300" />
-	<Badge skill="HTML/CSS/JS" color="bg-rose-400" />
-	<Badge skill="Linux" color="bg-violet-950" text_color="text-white" />
+	<Badge icon={bolt} />
+	<div class="flex flex-wrap">
+		<Badge skill="Python" color="bg-green-400" />
+		<Badge skill="C/C++" color="bg-orange-400" />
+		<Badge skill="OOP" color="bg-yellow-400" />
+		<Badge skill="Microsoft Office" color="bg-blue-300" />
+		<Badge skill="Git/Github" color="bg-stone-400" />
+		<Badge skill="Networks" color="bg-purple-300" />
+		<Badge skill="HTML/CSS/JS" color="bg-rose-400" />
+		<Badge skill="Svelte" color="bg-red-400" />
+		<Badge skill="Wire Shark" color="bg-teal-400" />
+		<Badge skill="Linux" color="bg-violet-950" text_color="text-white" />
+	</div>
 </section>
 
 <style>
