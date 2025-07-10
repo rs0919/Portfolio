@@ -10,6 +10,10 @@
 	onMount(async () => {});
 </script>
 
+<!-- Boxicons CSS -->
+<link href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css" rel="stylesheet" />
+<link href="https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css" rel="stylesheet" />
+
 <svelte:head>
 	<title>Home</title>
 	<meta name="description" content="Portfolio" />
@@ -24,37 +28,47 @@
 		<h3 class="font-ubuntu-mono text-lg flex justify-center">
 			Passionate about cybersecurity and software development
 		</h3>
-		<div class="profile-pic">
-			<img src={profile_pic} alt="Rohith Saravana" class="rounded-full w-40" />
-		</div>
 		<img
-			class="shadow-md"
+			class="shadow-md m-3"
 			src="https://media.tenor.com/awN35nOvAxgAAAAM/escalesolutions-escale.gif"
 			alt="spongebob and patrick"
 		/>
 	</div>
 
 	<div id="social-links">
-		<a href="https://github.com/rs0919">
-			<img
+		<a href="https://github.com/rs0919" class="m-5">
+			<!-- <img
 				class="social-icon rounded-full transition duration-300 hover:scale-110"
 				src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png"
 				alt="Github"
-			/>
+			/> -->
+			<i
+				class="bxl bx-github scale-300 transition duration-300 delay-50 hover:scale-350"
+				style="color:#00226c"
+			></i>
 		</a>
-		<a href="https://www.linkedin.com/in/rohith-saravana-2072b724b/">
-			<img
+		<a href="https://www.linkedin.com/in/rohith-saravana-2072b724b/" class="m-5">
+			<!-- <img
 				class="social-icon rounded-full transition duration-300 hover:scale-110"
 				src="https://pngimg.com/d/linkedIn_PNG27.png"
 				alt="LinkedIn"
-			/>
+			/> -->
+			<i
+				class="bxl bx-linkedin-square scale-300 transition duration-300 delay-50 hover:scale-350"
+				style="color:#00226c"
+			></i>
 		</a>
-		<a href="mailto:rohithsaravana@gmail.com">
-			<img
+		<a href="mailto:rohithsaravana@gmail.com" class="m-5">
+			<!-- <img
 				class="social-icon rounded-full transition duration-300 hover:scale-110"
 				src="https://images.vexels.com/media/users/3/140138/isolated/lists/88e50689fa3280c748d000aaf0bad480-email-round-icon-1.png"
 				alt="Email"
-			/>
+			/> -->
+			<i
+				class="bxr bxs-envelope-alt scale-300 transition duration-300 delay-50 hover:scale-350"
+				style="color:#00226c"
+			>
+			</i>
 		</a>
 	</div>
 
