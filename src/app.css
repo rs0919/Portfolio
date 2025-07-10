@@ -3,6 +3,8 @@
 
 :root {
 
+	overscroll-behavior: none;
+
 	--font-oxanium: 'Oxanium', sans-serif;
 	--font-ubuntu-mono: 'Ubuntu Mono', sans-serif;
 
