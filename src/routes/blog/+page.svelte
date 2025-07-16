@@ -25,7 +25,7 @@
 					<li
 						class="{i % 2 === 0
 							? 'bg-indigo-300'
-							: 'bg-indigo-200'} py-2 text-sky-700 text-2xl font-semibold border-t-2 transition duration-200 hover:text-teal-600 hover:bg-slate-300"
+							: 'bg-indigo-200'} py-2 text-sky-700 text-2xl font-semibold pl-4 border-t-2 transition duration-200 hover:text-teal-600 hover:bg-slate-300"
 					>
 						{post.title}
 					</li>

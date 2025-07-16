@@ -1,4 +1,4 @@
-import { getPostBySlug } from 'C:/Users/rohit/Documents/ECS/svelte_todoApp/src/content/blog/utils';
+import { getPostBySlug } from '$lib/utils';
 
 export async function load({ params }: any) {
 

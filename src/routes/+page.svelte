@@ -20,7 +20,7 @@
 </svelte:head>
 
 <section class="m-0">
-	<h1 class="text-6xl font-bold flex justify-center font-oxanium max-lg:text-5xl">
+	<h1 class="text-6xl text-shadow-md font-bold flex justify-center font-oxanium max-lg:text-5xl">
 		Rohith Saravana
 	</h1>
 
