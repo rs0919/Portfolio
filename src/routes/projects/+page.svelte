@@ -13,7 +13,7 @@
 </svelte:head>
 
 <section
-	class="bento-grid grid grid-cols-3 grid-rows-3 h-200 font-ubuntu-mono max-md:h-300 max-md:flex max-md:flex-col"
+	class="bento-grid grid grid-cols-3 grid-rows-3 h-200 font-ubuntu-mono max-md:h-1/1 max-md:flex max-md:flex-col"
 >
 	<div class="Moove col-span-2 bento-box overflow-auto max-md:h-full">
 		<h1 class="text-xl font-bold underline">Mooving Around</h1>

@@ -33,6 +33,7 @@
 		"gray-matter": "^4.0.3",
 		"markdown-it": "^14.1.0",
 		"path": "^0.12.7",
+		"svelte-media-queries": "^1.6.2",
 		"tailwindcss": "^4.1.11"
 	}
 }
