@@ -5,25 +5,30 @@
 
 	let { children } = $props();
 
+	let menuButton: HTMLElement;
+	let menu: HTMLElement;
+
 	onMount(async () => {
 		console.log('onmount');
 
-		let menuButton: HTMLElement = document.getElementById('menu-btn'); // hamburger button
-		let menu: HTMLElement = document.getElementById('overlay-menu');
+		menuButton = document.getElementById('menu-btn'); // hamburger button
+		menu = document.getElementById('overlay-menu');
 
-		menuButton?.addEventListener('click', () => {
-			console.log('button clicked');
-			if (menu?.classList.contains('invisible')) {
-				// make overlay menu appear
-				menu?.classList.remove('invisible');
-				menu?.classList.add('visible');
-			} else {
-				// hide menu
-				menu?.classList.remove('visible');
-				menu?.classList.add('invisible');
-			}
-		});
+		menuButton?.addEventListener('click', toggleOverlayMenu);
 	});
+
+	function toggleOverlayMenu() {
+		console.log('button clicked');
+		if (menu?.classList.contains('invisible')) {
+			// make overlay menu appear
+			menu?.classList.remove('invisible');
+			menu?.classList.add('visible');
+		} else {
+			// hide menu
+			menu?.classList.remove('visible');
+			menu?.classList.add('invisible');
+		}
+	}
 </script>
 
 <div class="grid grid-cols-6">
@@ -52,10 +57,20 @@
 					<ul
 						class="flex flex-col justify-center items-center mt-5 space-y-10 text-white text-2xl underline font-ubuntu-mono pt-2"
 					>
-						<li><a href="/" class="hover:text-lime-400">Home</a></li>
-						<li><a href="/blog" class="hover:text-lime-400">Blog</a></li>
-						<li><a href="/projects" class="hover:text-lime-400">Projects</a></li>
-						<li><a href="#contact" class="hover:text-lime-400">Resources</a></li>
+						<li><a onclick={toggleOverlayMenu} href="/" class="hover:text-lime-400">Home</a></li>
+						<li>
+							<a onclick={toggleOverlayMenu} href="/blog" class="hover:text-lime-400">Blog</a>
+						</li>
+						<li>
+							<a onclick={toggleOverlayMenu} href="/projects" class="hover:text-lime-400"
+								>Projects</a
+							>
+						</li>
+						<li>
+							<a onclick={toggleOverlayMenu} href="#contact" class="hover:text-lime-400"
+								>Resources</a
+							>
+						</li>
 					</ul>
 				</div>
 			{/if}
