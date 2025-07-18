@@ -24,13 +24,6 @@ export async function getAllBlogs(baseUrl: string) {
         };
     })
 
-    // return {
-    //     title: "my title",
-    //     slug: "my-title",
-    //     date: "today",
-    // };
-
-
 }
 
 export async function getPostBySlug(slug: string) {
