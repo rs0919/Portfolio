@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'path';
 import matter from 'gray-matter';
 
-const blogDirectory = path.resolve("src/content/blog");
+
+const blogDirectory = path.resolve("src/lib/content/blog");
 
 export async function getAllBlogs() {
     const files = fs.readdirSync(blogDirectory);
