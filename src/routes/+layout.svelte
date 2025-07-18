@@ -81,7 +81,7 @@
 		</main>
 
 		<footer class="text-zinc-500 mt-5 relative">
-			<p>Website developed by Rohith Saravana. Made with SvelteKit.</p>
+			<p>Developed by Rohith Saravana</p>
 		</footer>
 	</div>
 </div>

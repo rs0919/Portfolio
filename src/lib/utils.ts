@@ -3,7 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 
 
-const blogDirectory = path.resolve("src/lib/content/blog");
+const blogDirectory = path.resolve("static/content/blog");
 
 export async function getAllBlogs() {
     const files = fs.readdirSync(blogDirectory);
