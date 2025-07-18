@@ -14,9 +14,7 @@
 </svelte:head>
 
 <section>
-	<h2 class="font-ubuntu-mono text-2xl font-semibold tracking-wide">
-		Posts about random thoughts and ideas I have
-	</h2>
+	<h2 class="font-ubuntu-mono text-2xl font-semibold tracking-wide">Posts about my Thoughts</h2>
 
 	<ul class="w-full">
 		{#each data.posts as post, i}

@@ -9,8 +9,6 @@
 	let menu: HTMLElement;
 
 	onMount(async () => {
-		console.log('onmount');
-
 		menuButton = document.getElementById('menu-btn'); // hamburger button
 		menu = document.getElementById('overlay-menu');
 
