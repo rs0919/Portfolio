@@ -32,15 +32,17 @@
 </script>
 
 <div class="grid grid-cols-6">
-	<div class="main-content bg-slate-300 m-0 h-full col-span-4 col-start-2 max-lg:col-span-6">
+	<div
+		class="main-content bg-slate-300 m-0 min-h-screen h-auto col-span-4 col-start-2 max-lg:col-span-6"
+	>
 		<MediaQuery query="(min-width: 480px)" let:matches>
 			{#if matches}
-				<nav class="bg-indigo-800 h-10">
-					<ul class="flex justify-center space-x-14 text-white text-lg font-ubuntu-mono pt-2">
+				<nav class="bg-indigo-800 h-13">
+					<ul class="flex justify-center space-x-14 pt-3 text-white text-xl font-ubuntu-mono pt-2">
 						<li><a href="/" class="hover:text-lime-400">Home</a></li>
 						<li><a href="/blog" class="hover:text-lime-400">Blog</a></li>
 						<li><a href="/projects" class="hover:text-lime-400">Projects</a></li>
-						<li><a href="#contact" class="hover:text-lime-400">Resources</a></li>
+						<li><a href="/resources" class="hover:text-lime-400">Resources</a></li>
 					</ul>
 				</nav>
 			{:else}
@@ -67,7 +69,7 @@
 							>
 						</li>
 						<li>
-							<a onclick={toggleOverlayMenu} href="#contact" class="hover:text-lime-400"
+							<a onclick={toggleOverlayMenu} href="/resources" class="hover:text-lime-400"
 								>Resources</a
 							>
 						</li>
@@ -80,7 +82,7 @@
 			{@render children()}
 		</main>
 
-		<footer class="text-zinc-500">
+		<footer class="text-zinc-500 mt-5 relative">
 			<p>Website developed by Rohith Saravana. Made with SvelteKit.</p>
 		</footer>
 	</div>
