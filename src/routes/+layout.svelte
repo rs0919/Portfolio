@@ -16,7 +16,7 @@
 	});
 
 	function toggleOverlayMenu() {
-		console.log('button clicked');
+		// console.log('button clicked');
 		if (menu?.classList.contains('invisible')) {
 			// make overlay menu appear
 			menu?.classList.remove('invisible');

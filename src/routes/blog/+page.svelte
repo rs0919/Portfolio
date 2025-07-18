@@ -3,8 +3,8 @@
 	export let data; // prop data returned by page.server.ts
 	// console.log('Posts: ', data.posts);
 	onMount(async () => {
-		// console.log('blog opened');
-		// console.log('data: ', data);
+		console.log('blog opened');
+		console.log('data: ', data);
 	});
 </script>
 
