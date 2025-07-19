@@ -53,7 +53,7 @@
 						/>
 					</button>
 				</nav>
-				<div id="overlay-menu" class="absolute invisible z-10 h-full w-full bg-indigo-900">
+				<div id="overlay-menu" class="absolute -translate-x-100 visible z-10 h-full w-full bg-indigo-900 transition transition-transform delay-100 duration-400 hover:translate-x-0">
 					<ul
 						class="flex flex-col justify-center items-center mt-5 space-y-10 text-white text-2xl underline font-ubuntu-mono pt-2"
 					>
