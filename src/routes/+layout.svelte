@@ -31,11 +31,13 @@
 		<nav class="bg-indigo-800 h-15">
 			<button
 				id="menu-btn"
+				aria-label="Menu"
 				type="button"
 				class="cursor-pointer hidden max-[480px]:block"
 				onclick={toggleOverlayMenu}
 			>
-				<p class="text-orange-200">MENU</p>
+				<!-- svelte-ignore element_invalid_self_closing_tag -->
+				<i class="bx bx-menu-close scale-350 ml-8 mt-5" style="color:#FFFFFF;" />
 			</button>
 
 			<MediaQuery query="(min-width: 480px)" let:matches>
@@ -50,8 +52,8 @@
 					<div
 						id="overlay-menu"
 						class="absolute {overlayVisible
-							? 'transition transition-transform duration-300 -translate-x-120'
-							: 'transition transition-transform duration-300'} z-10 h-full w-full bg-indigo-900"
+							? 'transition transition-transform duration-300'
+							: 'transition transition-transform duration-400 delay-300 -translate-x-120'} z-10 h-full w-full bg-indigo-900 mt-3"
 					>
 						<ul
 							class="flex flex-col justify-center items-center mt-5 space-y-10 text-white text-2xl underline font-ubuntu-mono pt-2"
