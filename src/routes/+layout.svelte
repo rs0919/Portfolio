@@ -19,15 +19,7 @@
 
 	function toggleOverlayMenu() {
 		console.log('button clicked');
-		// if (menu?.classList.contains('invisible')) {
-		// 	// overlay menu becomes available
-		// 	menu?.classList.remove('invisible');
-		// 	menu?.classList.add('visible');
-		// } else {
-		// 	// hide overlay menu, revert to traditional nav bar
-		// 	menu?.classList.remove('visible');
-		// 	menu?.classList.add('invisible');
-		// }
+
 		overlayVisible = !overlayVisible;
 	}
 </script>
@@ -58,8 +50,8 @@
 					<div
 						id="overlay-menu"
 						class="absolute {overlayVisible
-							? 'visible'
-							: 'invisible'} z-10 h-full w-full bg-indigo-900 transition transition-transform delay-100 duration-400"
+							? 'transition transition-transform duration-300 -translate-x-120'
+							: 'transition transition-transform duration-300'} z-10 h-full w-full bg-indigo-900"
 					>
 						<ul
 							class="flex flex-col justify-center items-center mt-5 space-y-10 text-white text-2xl underline font-ubuntu-mono pt-2"
