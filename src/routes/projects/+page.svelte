@@ -12,11 +12,18 @@
 	<meta name="description" content="Portfolio" />
 </svelte:head>
 
+<div>
+	<h1 class="ml-3 text-black font-semibold font-ubuntu-mono text-3xl">Projects</h1>
+	<p class="ml-3 text-black font-ubuntu-mono text-xl">
+		(Click on any project to view the source code)
+	</p>
+</div>
+
 <section
 	class="bento-grid grid grid-cols-3 grid-rows-3 h-200 font-ubuntu-mono max-md:h-1/1 max-md:flex max-md:flex-col"
 >
 	<div class="Moove col-span-2 bento-box overflow-auto max-md:h-full">
-		<a href="https://moovingaround.vercel.app/">
+		<a href="https://github.com/rs0919/HackDavis2025">
 			<h1 class="text-xl font-bold underline">Mooving Around</h1>
 			<p>
 				Built a website to inform new students and residents of Davis, CA about the city's various
@@ -62,9 +69,9 @@
 			<img
 				src="https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif"
 				alt="under construction"
-				class="w-50 ml-3 max-sm:w-40"
+				class="w-50 ml-3 max-sm:w-35"
 			/>
-			<p class="ml-5 text-3xl/15 font-semibold max-sm:text-2xl/10">
+			<p class="ml-5 text-3xl/15 font-semibold max-sm:text-xl/8">
 				Under Construction...<br />More Projects Coming Soon!
 			</p>
 		</div>

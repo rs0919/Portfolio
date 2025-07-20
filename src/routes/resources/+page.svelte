@@ -44,4 +44,15 @@
 	<p class="text-black font-ubuntu-mono text-xl">I used TailWindCSS for styling.</p>
 </div>
 
+<div class="mt-10">
+	<a
+		href="https://boxicons.com/"
+		class="text-blue-800 hover:text-rose-600 font-ubuntu-mono text-2xl underline"
+		target="_blank"
+		rel="noopener noreferrer"
+		>Boxicons
+	</a>
+	<p class="text-black font-ubuntu-mono text-xl">Icons I used for my website.</p>
+</div>
+
 <style></style>
