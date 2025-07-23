@@ -18,7 +18,7 @@
 
 	<ul class="w-full">
 		{#each data.posts as post, i}
-			{#if post.title != undefined}
+			{#if post.title != undefined && (post.published = true)}
 				<a href={`/blog/${post.slug}`}>
 					<li
 						class="{i % 2 === 0
