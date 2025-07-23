@@ -16,7 +16,8 @@ export async function load({ params, url }: any) {
     const { data, content } = matter(fileContent);
     // console.log("content:", content);
     return {
-        content: content
+        content: content,
+        data: data
     };
     // return { content: "test" };
 }
