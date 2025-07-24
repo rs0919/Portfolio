@@ -6,8 +6,8 @@ export async function load() {
     // const modules = import.meta.glob('/static/content/blog/*.md', { as: 'raw' });
 
     const allPosts = [ // contains all blogs located in blog dir
-        { slug: 'my-first-blog-post', published: false, title: 'My First Blog Post' },
-        { slug: 'thoughts-on-tailwind', published: true, title: 'Thoughts on Tailwind' }
+        // { slug: 'my-first-blog-post', title: 'My First Blog Post' },
+        { slug: 'thoughts-on-tailwind', title: 'Thoughts on Tailwind' }
     ];
 
     return {
