@@ -129,7 +129,7 @@
 	<div class="flex flex-wrap">
 		<Badge skill="CompTIA Security+ certification" color="bg-red-400" />
 		<Badge skill="Microsoft Office" color="bg-blue-300" />
-		<Badge skill="Linux" color="bg-blue-300"" />
+		<Badge skill="Linux" color="bg-blue-300" />
 		<Badge skill="Windows Server" color="bg-blue-300" />
 		<Badge skill="Google Workspace" color="bg-blue-300" />
 		<Badge skill="TCP/IP" color="bg-yellow-400" />
