@@ -20,8 +20,8 @@
 </div>
 
 <section
-	class="bento-grid grid grid-cols-3 grid-rows-3 h-200 font-ubuntu-mono max-md:h-1/1 max-md:flex max-md:flex-col">
-	<div class="Moove col-span-2 bento-box overflow-auto max-md:h-full">
+	class="h-200 font-ubuntu-mono h-1/1 flex flex-col">
+	<div class="Moove bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/HackDavis2025">
 			<h1 class="text-xl font-bold underline">Mooving Around</h1>
 			<p>
@@ -32,7 +32,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Forecast bento-box row-span-2 overflow-auto max-md:h-full">
+	<div class="Forecast bento-box overflow-auto h-full">
 		<a href="https://github.com/danfirsten/ForecastFM">
 			<h1 class="text-xl font-bold underline">ForecastFM</h1>
 			<p>
@@ -43,7 +43,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Keylog bento-box overflow-auto max-md:h-full">
+	<div class="Keylog bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/Keylogger">
 			<h1 class="text-xl font-bold underline">Keylogger</h1>
 			<p>
@@ -53,7 +53,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Steg bento-box overflow-auto max-md:h-full">
+	<div class="Steg bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/HackDavis_2024">
 			<h1 class="text-xl font-bold underline">Image Steganography</h1>
 			<p>
@@ -63,7 +63,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Construction bento-box col-span-3 max-md:h-full">
+	<div class="Construction bento-box h-full">
 		<div class="flex flex-row">
 			<img
 				src="https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif"
