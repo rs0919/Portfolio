@@ -59,9 +59,9 @@
 							class="flex flex-col justify-center items-center mt-5 space-y-10 text-white text-2xl underline font-ubuntu-mono pt-2"
 						>
 							<li><a onclick={toggleOverlayMenu} href="/" class="hover:text-lime-400">Home</a></li>
-							<li>
+							<!-- <li>
 								<a onclick={toggleOverlayMenu} href="/blog" class="hover:text-lime-400">Blog</a>
-							</li>
+							</li> -->
 							<li>
 								<a onclick={toggleOverlayMenu} href="/projects" class="hover:text-lime-400">
 									Projects
