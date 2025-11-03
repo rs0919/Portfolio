@@ -43,7 +43,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Keylog bento-box overflow-auto">
+	<div class="Keylog bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/Keylogger">
 			<h1 class="text-xl font-bold underline">Keylogger</h1>
 			<p>
@@ -53,7 +53,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Steg bento-box overflow-auto">
+	<div class="Steg bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/HackDavis_2024">
 			<h1 class="text-xl font-bold underline">Image Steganography</h1>
 			<p>
@@ -63,7 +63,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Construction bento-box">
+	<div class="Construction bento-box h-full">
 		<div class="flex flex-row">
 			<img
 				src="https://media.tenor.com/MRCIli40TYoAAAAj/under-construction90s-90s.gif"
