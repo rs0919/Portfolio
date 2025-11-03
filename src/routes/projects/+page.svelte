@@ -20,7 +20,16 @@
 </div>
 
 <section
-	class="h-200 font-ubuntu-mono h-1/1 flex flex-col">
+	class="h-400 font-ubuntu-mono h-1/1 flex flex-col">
+	<div class="Home-lab bento-box overflow-auto h-full">
+		<h1 class="text-xl font-bold underline">Home Lab</h1>
+		<p>
+			I set up a personal home lab using an old computer and installing Ubuntu Server on it.
+			I configured the server to act as a private cloud and file storage system. 
+			Set up SMB to support cross-platform file sharing and a VPN so I can access my home lab securely and remotely.
+			I organize my photos using Immich and my media using Jellyfin. 
+		</p>
+	</div>
 	<div class="Moove bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/HackDavis2025">
 			<h1 class="text-xl font-bold underline">Mooving Around</h1>
