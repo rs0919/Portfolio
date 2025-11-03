@@ -24,7 +24,7 @@
 
 	<div id="tag-line">
 		<h3 class="font-ubuntu-mono text-lg flex justify-center">
-			Passionate about cybersecurity and software development
+			Focused on IT and Cybersecurity
 		</h3>
 		<img
 			class="shadow-md m-3"
@@ -74,16 +74,29 @@
 		<p class="font-ubuntu-mono font-bold text-xl text-amber-700">About</p>
 		<p class="font-ubuntu-mono text-lg">
 			I graduated from UC Davis with a degree in Computer Science, B.S. I have worked on many
-			projects in software development and cybersecurity over the years. I'm interested in
-			developing tools that can help people maintain their privacy and improve their security
-			posture. Aside from programming and tech, I really enjoy watching movies, playing video games,
-			and cooking.
+			projects in software development, cybersecurity, and networking. I'm currently working as
+			an IT support technician working on troubleshooting technical issues and automating my company's workflow.
+			I'm interested in cybersecurity and helping people preserve their online privacy. Aside from programming and tech, 
+			I really enjoy watching movies, playing video games, and cooking.
 		</p>
 	</div>
 
 	<!-- <Info header="Work Experience" content="Bike Patrol..." /> -->
 	<Info
-		header="CS Experience"
+		header="Professional Experience"
+		content_1="As an IT Support technician, I administrate my company's Google Workspace, 
+		using Role-based access controls, MFA, principle of least privilege, as well as perform routine back ups 
+		to ensure that important data is kept secure and available to users that need it.
+		
+		Through scripting, I have also automated internal communications, client notifications, 
+		and other parts of my company's workflow, saving hundreds of hours in manual work.
+		
+		In order to help other non-technical users with their issues or explain new projects to them, I educate
+		users on IT and security concepts, communicate technical ideas using non-technical language,
+		and write easy-to-understand documentation to detail issues and projects."
+	/>
+	<Info
+		header="Other Computer Science Experience"
 		content_1="At my time in UC Davis, I was a project manager at the AI Student Collective. 
 		I guided cohorts of students that were interested in machine learning, but had little 
 		coding experience. I taught them the Python basics and the Sci-Kit Learn framework 

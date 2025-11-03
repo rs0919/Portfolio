@@ -44,7 +44,7 @@
 				{#if matches}
 					<ul class="flex justify-center space-x-14 pt-3 text-white text-xl font-ubuntu-mono pt-2">
 						<li><a href="/" class="hover:text-lime-400">Home</a></li>
-						<li><a href="/blog" class="hover:text-lime-400">Blog</a></li>
+						<!-- <li><a href="/blog" class="hover:text-lime-400">Blog</a></li> -->
 						<li><a href="/projects" class="hover:text-lime-400">Projects</a></li>
 						<li><a href="/resources" class="hover:text-lime-400">Resources</a></li>
 					</ul>
