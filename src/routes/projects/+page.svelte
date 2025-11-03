@@ -21,7 +21,7 @@
 
 <section
 	class="h-200 font-ubuntu-mono h-1/1 flex flex-col">
-	<div class="Moove bento-box overflow-auto">
+	<div class="Moove bento-box overflow-auto h-full">
 		<a href="https://github.com/rs0919/HackDavis2025">
 			<h1 class="text-xl font-bold underline">Mooving Around</h1>
 			<p>
@@ -32,7 +32,7 @@
 			</p>
 		</a>
 	</div>
-	<div class="Forecast bento-box overflow-auto">
+	<div class="Forecast bento-box overflow-auto h-full">
 		<a href="https://github.com/danfirsten/ForecastFM">
 			<h1 class="text-xl font-bold underline">ForecastFM</h1>
 			<p>
