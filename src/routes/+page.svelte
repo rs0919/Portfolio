@@ -76,7 +76,7 @@
 			I graduated from UC Davis with a degree in Computer Science, B.S. I have worked on many
 			projects in software development, cybersecurity, and networking. I'm currently working as
 			an IT support technician working on troubleshooting technical issues and automating my company's workflow.
-			I'm interested in cybersecurity and helping people preserve their online privacy. Aside from programming and tech, 
+			I'm Security+ certified and interested in cybersecurity and helping people preserve their online privacy. Aside from programming and tech, 
 			I really enjoy watching movies, playing video games, and cooking.
 		</p>
 	</div>
@@ -86,12 +86,12 @@
 		header="Professional Experience"
 		content_1="As an IT Support technician, I administrate my company's Google Workspace, 
 		using Role-based access controls, MFA, principle of least privilege, as well as perform routine back ups 
-		to ensure that important data is kept secure and available to users that need it.
+		to ensure that important data is kept secure and available to users that need it."
 		
-		Through scripting, I have also automated internal communications, client notifications, 
-		and other parts of my company's workflow, saving hundreds of hours in manual work.
+		content_2="Through scripting, I have also automated internal communications, client notifications, 
+		and other parts of my company's workflow, saving hundreds of hours in manual work.""
 		
-		In order to help other non-technical users with their issues or explain new projects to them, I educate
+		content_3="In order to help other non-technical users with their issues or explain new projects to them, I educate
 		users on IT and security concepts, communicate technical ideas using non-technical language,
 		and write easy-to-understand documentation to detail issues and projects."
 	/>
@@ -115,8 +115,10 @@
 		 to students and residents of Davis. My goal was to help with the potentially 
 		 overwhelming process of moving to a new city and provide online resources to 
 		 help students learn how to get around the city."
-	/>
-	<!-- <br><br>
+		 />
+		 <!-- <br><br>
+		 content_2="In my current role, a significant project I implemented was automating client appointment reminders."
+		 
 		 Another project I contributed to is <a href='https://github.com/danfirsten/ForecastFM' class='text-orange-300 hover:text-rose-500'>ForecastFM</a> a music player built with 
 		 Svelte that integrates Spotify's API. Based on the user's location and current weather, 
 		 the site generates playlists that match the vibe of the weather." -->
@@ -125,16 +127,20 @@
 <section>
 	<Badge icon={bolt} />
 	<div class="flex flex-wrap">
-		<Badge skill="Python" color="bg-green-400" />
-		<Badge skill="C/C++" color="bg-orange-400" />
-		<Badge skill="OOP" color="bg-yellow-400" />
+		<Badge skill="CompTIA Security+ certification" color="bg-red-400" />
+		<Badge skill="VMware" color="bg-yellow-400" />
 		<Badge skill="Microsoft Office" color="bg-blue-300" />
-		<Badge skill="Git/Github" color="bg-stone-400" />
-		<Badge skill="Networks" color="bg-purple-300" />
-		<Badge skill="HTML/CSS/JS" color="bg-rose-400" />
-		<Badge skill="Svelte" color="bg-red-400" />
-		<Badge skill="Wire Shark" color="bg-teal-400" />
 		<Badge skill="Linux" color="bg-violet-950" text_color="text-white" />
+		<Badge skill="Windows Server" color="bg-blue-300" />
+		<Badge skill="Google Workspace" color="bg-blue-300" />
+		<Badge skill="TCP/IP" color="bg-teal-400" />
+		<Badge skill="Wire Shark" color="bg-teal-400" />
+		<Badge skill="Javascript" color="bg-rose-400" />
+		<Badge skill="Bash scripting" color="bg-rose-400" />
+		<Badge skill="Git/Github" color="bg-stone-400" />
+		<Badge skill="Python" color="bg-orange-400" />
+		<Badge skill="C/C++" color="bg-orange-400" />
+		<Badge skill="Svelte" color="bg-orange-400" />
 	</div>
 </section>
 
