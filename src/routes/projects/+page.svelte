@@ -15,13 +15,12 @@
 <div>
 	<h1 class="ml-3 text-black font-semibold font-ubuntu-mono text-3xl">Projects</h1>
 	<p class="ml-3 text-black font-ubuntu-mono text-xl">
-		(Click on any project to view the source code)
+		(Click on a project to view the source code, if available)
 	</p>
 </div>
 
 <section
-	class="bento-grid grid grid-cols-3 grid-rows-3 h-200 font-ubuntu-mono max-md:h-1/1 max-md:flex max-md:flex-col"
->
+	class="bento-grid grid grid-cols-3 grid-rows-3 h-200 font-ubuntu-mono max-md:h-1/1 max-md:flex max-md:flex-col">
 	<div class="Moove col-span-2 bento-box overflow-auto max-md:h-full">
 		<a href="https://github.com/rs0919/HackDavis2025">
 			<h1 class="text-xl font-bold underline">Mooving Around</h1>

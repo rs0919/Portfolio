@@ -89,7 +89,7 @@
 		to ensure that important data is kept secure and available to users that need it."
 		
 		content_2="Through scripting, I have also automated internal communications, client notifications, 
-		and other parts of my company's workflow, saving hundreds of hours in manual work.""
+		and other parts of my company's workflow, saving hundreds of hours in manual work."
 		
 		content_3="In order to help other non-technical users with their issues or explain new projects to them, I educate
 		users on IT and security concepts, communicate technical ideas using non-technical language,
