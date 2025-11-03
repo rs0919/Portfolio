@@ -84,7 +84,7 @@
 	<!-- <Info header="Work Experience" content="Bike Patrol..." /> -->
 	<Info
 		header="Professional Experience"
-		content_1="As an IT Support technician, I administrate my company's Google Workspace, 
+		content_1="In my current role as an IT Support technician, I administrate my company's Google Workspace, 
 		using Role-based access controls, MFA, principle of least privilege, as well as perform routine back ups 
 		to ensure that important data is kept secure and available to users that need it."
 		
@@ -128,16 +128,16 @@
 	<Badge icon={bolt} />
 	<div class="flex flex-wrap">
 		<Badge skill="CompTIA Security+ certification" color="bg-red-400" />
-		<Badge skill="VMware" color="bg-yellow-400" />
 		<Badge skill="Microsoft Office" color="bg-blue-300" />
-		<Badge skill="Linux" color="bg-violet-950" text_color="text-white" />
+		<Badge skill="Linux" color="bg-blue-300"" />
 		<Badge skill="Windows Server" color="bg-blue-300" />
 		<Badge skill="Google Workspace" color="bg-blue-300" />
-		<Badge skill="TCP/IP" color="bg-teal-400" />
-		<Badge skill="Wire Shark" color="bg-teal-400" />
+		<Badge skill="TCP/IP" color="bg-yellow-400" />
+		<Badge skill="VMware" color="bg-yellow-400" />
+		<Badge skill="Wire Shark" color="bg-yellow-400" />
 		<Badge skill="Javascript" color="bg-rose-400" />
 		<Badge skill="Bash scripting" color="bg-rose-400" />
-		<Badge skill="Git/Github" color="bg-stone-400" />
+		<Badge skill="Git/Github" color="bg-violet-950" text_color="text-white" />
 		<Badge skill="Python" color="bg-orange-400" />
 		<Badge skill="C/C++" color="bg-orange-400" />
 		<Badge skill="Svelte" color="bg-orange-400" />
